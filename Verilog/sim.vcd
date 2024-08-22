@@ -1,0 +1,41 @@
+$date
+	Fri Mar 29 15:38:11 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test $end
+$var wire 1 ! diff $end
+$var wire 1 " borr $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$scope module subtr_inst $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 " borr $end
+$var wire 1 ! diff $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0$
+0#
+0"
+0!
+$end
+#10
+1!
+1"
+1$
+#20
+0"
+0$
+1#
+#30
+0!
+1$
+#80
